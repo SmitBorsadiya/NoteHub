@@ -28,7 +28,7 @@ const Footer = () => {
                 <div style={phantom} />
                 <div style={style}>
 
-                    © 2022 Copyright: inotes.com By Yash_Vora
+                    © 2022 Copyright: inotebook.com By Smit_Borsadiya
                 </div>
             </div>
         </>
