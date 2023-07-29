@@ -17,7 +17,7 @@ node_modules
 # .DS_Store
 .env
 /client/.env
-thunder-collection_iNotebook.json
+thunder-collection_NoteHub.json
 # .env.development.local
 # .env.test.local
 # .env.production.local

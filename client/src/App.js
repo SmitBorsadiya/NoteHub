@@ -21,8 +21,7 @@ function App() {
     if (document.cookie === 'false') {
       localStorage.removeItem('token');
     }
-  };
-  
+  };  
 
   return (
     <>
@@ -30,7 +29,7 @@ function App() {
         <NoteState>
           <Router>
             <Navbar />
-            <div className="container">
+            <div className="container notes">
               <Routes>
                <Route exact path="/" element={<Home />} />
                 <Route exact path="/About" element={<About />} />

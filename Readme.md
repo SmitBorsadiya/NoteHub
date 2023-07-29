@@ -1,6 +1,6 @@
-# iNotebook
+# NoteHub
 
-iNotebook is project made with MERN Stack.<br/>
+NoteHub is project made with MERN Stack.<br/>
 <!-- Link: https://644dda38cbc6c4040d1d0c8b--inotebookvorayash.netlify.app/ -->
 
 ## Demo
@@ -64,7 +64,7 @@ If you need to update `npm`, you can make it using `npm`! Cool right? After runn
 
 ## Configure app
 
-Open `a/iNotebook/index.js` then edit it with your settings. You will need:
+Open `a/NoteHub/index.js` then edit it with your settings. You will need:
 
 ## Running the project
 

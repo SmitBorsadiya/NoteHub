@@ -65,7 +65,7 @@ const Login = () => {
                 <div className="col-md-6 mx-auto order-2 order-lg-1 d-flex justify-content-center flex-column">
                     <div className="login">
                         <form onSubmit={handleSubmit}>
-                            <h2>Login to iNotebook</h2>
+                            <h2>Login to NoteHub</h2>
                             <div className="mb-3">
                                 <label htmlFor="email" className="form-label">Email address</label>
                                 <input type="email" className="form-control" id="email" name="email" onChange={onChangeHandler} aria-describedby="emailHelp" required={true} />

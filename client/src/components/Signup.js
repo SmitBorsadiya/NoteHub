@@ -55,7 +55,7 @@ const Signup = () => {
         <div className="col-md-6 mx-auto order-2 order-lg-1 d-flex justify-content-center flex-column">
           <div className="signup">
             <form onSubmit={handleSubmit}>
-              <h2 className="my-3">Create an account to use iNotebook</h2>
+              <h2 className="my-3">Create an account to use NoteHub</h2>
               <div className="mb-3">
                 <label htmlFor="name" className="form-label">Name</label>
                 <input type="text" className="form-control" id="name" name="name" minLength={5} required onChange={onChangeHandler} aria-describedby="nameHelp" />

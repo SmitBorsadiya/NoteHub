@@ -148,7 +148,7 @@ router.post('/sendotp', async (req, res) => {
         let mailOptions = {
             from: process.env.NODEMAILER_EMAIL,
             to: req.body.email,
-            subject: 'iNotes Password Request Otp',
+            subject: 'NoteHub Password Request Otp',
             text: `Your one time password is ${otp}`
         };
 

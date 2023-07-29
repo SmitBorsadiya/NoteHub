@@ -12,27 +12,26 @@ const Footer = () => {
         width: "100%",
         fontWeight: "400px",
         letterSpacing: "1px",
-        position: "relative"      
+        position: "relative",
+}
 
-    }
+var phantom = {
+    display: 'block',
+    padding: '20px',
+    height: '60px',
+    width: '100%',
+}
+return (
+    <>
+        <div >
+            <div style={phantom} />
+            <div style={style}>
 
-    var phantom = {
-        display: 'block',
-        padding: '20px',
-        height: '60px',
-        width: '100%',
-    }
-    return (
-        <>
-            <div >
-                <div style={phantom} />
-                <div style={style}>
-
-                    © 2022 Copyright: inotebook.com By Smit_Borsadiya
-                </div>
+                © 2023 Copyright: NoteHub.com By Smit_Borsadiya
             </div>
-        </>
-    )
+        </div>
+    </>
+)
 }
 
 export default Footer

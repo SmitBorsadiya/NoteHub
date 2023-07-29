@@ -2,6 +2,13 @@
   text-align: center;
 }
 
+.notes{
+  display: flex;
+  flex-direction: column;
+  min-height: 76vh;
+  flex: 1;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
