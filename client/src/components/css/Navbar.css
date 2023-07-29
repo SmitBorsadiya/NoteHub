@@ -1,0 +1,35 @@
+.navbar{
+
+    box-shadow: 0 4px 12px 0 rgb(0 0 0 / 7%), 0 2px 4px rgb(0 0 0 / 5%);
+    padding-top: 0.5625rem;
+    background-color: rgb(252, 252, 252)!important;
+    margin:0px !important;
+    padding: 10px 10px;
+    position: fixed;
+    font-size: large;
+
+}
+
+
+.link{
+    text-decoration: none;
+    color:rgba(0,0,0,.9);
+    font-weight: bolder;
+}
+
+.active{
+    color: black;
+}
+
+.seperator{
+    font-weight: bolder;
+}
+
+.fa-user-circle{
+    margin-right: -16px;
+    margin-left: -16px;
+}
+
+.dropdown-toggle{
+    margin:0px;
+}
