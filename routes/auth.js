@@ -8,7 +8,7 @@ const fetchuser = require('../middleware/fetchuser');
 let nodemailer = require('nodemailer');
 
 
-const JWT_SECRET = "Yashisagoodboy";
+const JWT_SECRET = "smitims";
 let otp;
 
 //Create a User using: POST "/api/auth/createuser". No login require
